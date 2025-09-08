@@ -5,14 +5,11 @@ TaskFlow is a modern, feature-rich To-Do list application for Android, built ent
 
 ---
 ---
-
 ## 📸 Screenshots
 
-**Note:** _Replace the placeholder links below with URLs to your actual screenshots._
-
-| Main Screen (Empty) | Main Screen (With Tasks) | Add/Edit Dialog | Date & Time Picker |
-| :---: |:---:|:---:|:---:|
-| ![Empty Task List](https://raw.githubusercontent.com/therahuls916/TaskFlow/main/screenshots/s1.png) | ![Task List](https://raw.githubusercontent.com/therahuls916/TaskFlow/main/screenshots/s2.png) | ![Add-Edit Dialog](https://raw.githubusercontent.com/therahuls916/TaskFlow/main/screenshots/s3.png) | ![Date Picker](https://raw.githubusercontent.com/therahuls916/TaskFlow/main/screenshots/s4.png) |
+| Main Screen (Empty) | Add/Edit Dialog | Date Picker | Main Screen (With Tasks) | Completed Tasks Screen |
+| :---: |:---:|:---:|:---:|:---:|
+| ![1 Empty to Do list](https://github.com/user-attachments/assets/9cf357b1-e66d-42b4-a28e-9cd93bbd1141) | ![2 Add New Task](https://github.com/user-attachments/assets/987c23c0-76ad-4f14-9251-7ea624cf4040) | ![3 Select Date](https://github.com/user-attachments/assets/c4664373-ff70-411b-8b34-f76ed802ae57) | ![5 Task Added](https://github.com/user-attachments/assets/62d95d6a-a3b8-4945-81ce-f5b58977ce41) | ![6 Task Completed](https://github.com/user-attachments/assets/707dabb8-7fd6-4239-9117-90a1f9c390b3) |
 
 ---
 
@@ -54,9 +51,9 @@ TaskFlow is a modern, feature-rich To-Do list application for Android, built ent
     -   Material 3 Date & Time Pickers
 
 ---
-
+---
 ## 📂 Folder Structure
-
+```plaintext
 app/src/main/java/com/rahul/auric/todo/
 ├── data/
 │   ├── model/
@@ -80,7 +77,8 @@ app/src/main/java/com/rahul/auric/todo/
 │       └── Type.kt
 ├── ToDoApp.kt               # Application class for Hilt initialization
 └── MainActivity.kt          # Main entry point for the application
-
+```
+---
 ## 🔐 Permissions Used
 
 This application currently requires **no special permissions**, providing a secure and privacy-focused user experience.
